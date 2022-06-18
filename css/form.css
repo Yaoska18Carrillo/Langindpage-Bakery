@@ -1,0 +1,27 @@
+.form{
+    max-width: 100%;
+    background-color: rgba(255, 192, 203, 0.701);
+    width: 340px;
+    border-radius: 10px;
+    height: 440px;
+    font-family: 'roboto';
+}
+textareaw{
+    height: 60px;
+}
+input{
+    border: gray;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+}
+
+button{
+   
+ border-radius: 10px;
+ width: 80px;
+ height: 50px;
+}

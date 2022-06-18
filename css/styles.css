@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*para que los bordes no crezacxan ma e lo que ya estableci*/
+
+}
+img{
+    max-width: 100%;
+}
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 2.7em;
+}
+p{
+    font-size: 1.25em;
+}
+body{
+    font-family: url('https://fonts.googleapis.com/css2? family= Mochiy+Pop+P+One & family= Roboto+Flex:opsz,wght@8..144,300 & family= Roboto:ital ,peso@0,100;1,100;1,700 & mostrar=cambiar');
+    margin: 0;
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto;
+}
+
+#home{
+    display: flex;
+    font-size: 1.7rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+    ,url(/img/fondohome.jpg);
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+footer{
+    display: flex;
+    justify-content: center; 
+   height: 130px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-image: url('/img/icon2.jpg');
+   background-position: center center;
+}
+
+
+#servicios{
+  padding-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+    , url(/img/bg2.2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#nosotros{
+    background: linear-gradient(180deg ,#680303,#da2b4b);
+}
+.somos{
+    /*&padding-top: 40px;*/
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: antiquewhite;
+}
+#contacto{
+    max-width: 100%;
+    padding-top: 70px; 
+    height: 90vh;
+  background-image:  linear-gradient( 0deg, rgba(189, 40, 40, 0.5), rgba(0,0,0,0.5))
+  ,url("/img/fondoFm.webp");
+}
